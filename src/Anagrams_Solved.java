@@ -19,7 +19,7 @@ public class Anagrams_Solved {
 				"aabaaabaaaaaabbbbaabbabaaaabbaababaaabbabbaaaaababaaabaabbbabbababaabababbaabaababbaabbabbbaaabbb" };
 		String[] C = { "cat", "dog", "god", "tca" };
 		String[] A = { "cde", "bee" };
-
+int a = 2^31-1;
 		ArrayList<String> list = new ArrayList<String>();
 		for (int i = 0; i < A.length; i++) {
 			list.add(A[i]);
